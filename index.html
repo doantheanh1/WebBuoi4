@@ -11,22 +11,26 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Trang Chủ</a></li>
-                <li><a href="about.html">Giới Thiệu</a></li>
-                <li><a href="contact.html">Liên Hệ</a></li>
+                <li><a href="register.html">Đăng Ký</a></li>
+                <li><a href="login.html">Đăng Nhập</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <div class="container">
-            <h1>Chào mừng đến với Website của The Anh</h1>
-            <p>Khám phá nội dung tuyệt vời và tìm hiểu thêm về The Anh.</p>
-            <a href="about.html" class="btn">Tìm hiểu ngay</a>
+
+    <main class="profile">
+        <div class="profile-card">
+            <img src="data:image/jpeg;base64,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" alt="Ảnh cá nhân" class="profile-img">
+            <h1>Nguyễn Văn A</h1>
+            <p><strong>Email:</strong> nguyenvana@example.com</p>
+            <p><strong>Giới thiệu:</strong> Tôi là một lập trình viên đam mê phát triển web.</p>
+            <h1>Nganh : cong nghe thong tin</h1>
+            <h1>Lop: 21DTHC3</h1>
+            <h1>MSSV : 2180603306</h1>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Bản quyền thuộc về Doantheanh.</p>
+        <p>&copy; 2025 Bản quyền thuộc về The Anh.</p>
     </footer>
 </body>
 </html>
